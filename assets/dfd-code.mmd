@@ -1,0 +1,21 @@
+flowchart TD
+    A["👤 User Launches App"] --> B{"🌐 Is Online?"}
+    B -- Yes --> C{"📦 Is Data in AsyncStorage?"}
+    C -- Yes --> D["✅ Load Data from Storage and Show Home Page"]
+    C -- No --> E["🌐 Call Categories API"]
+    E --> F["🔁 For each category, call MealsByCategory API"]
+    F --> G["📦 Combine Categories + Meals"]
+    G --> H["💾 Save to AsyncStorage"]
+    H --> D
+    B -- No --> I{"📦 Is Data in AsyncStorage?"}
+    I -- Yes --> D
+    I -- No --> J["⚠️ Show Warning: Enable Internet to Load Data for First Time"]
+    D --> K["🏠 Home Page - Categories and Meals"]
+    K --> L["🍽️ Click on a Meal"]
+    L --> M["➡️ Navigate to Meal Detail Page"]
+    M --> N{"📦 Meal Detail in Storage?"}
+    N -- Yes --> O["✅ Show Cached Meal Detail Offline Mode - Without Image and Youtube Link"]
+    N -- No & Online --> P1["🌐 Call Meal Detail API"]
+    P1 --> P2["💾 Save New Meal Detail to AsyncStorage"]
+    P2 --> P3["✅ Show Full Meal Detail Info"]
+    N -- No & Offline --> Q["⚠️ Warning: Detail Unavailable"]
