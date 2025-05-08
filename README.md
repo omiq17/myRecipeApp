@@ -15,15 +15,11 @@ My Recipe App caches recipes locally using `AsyncStorage`. If you're offline, th
 - Caching with: AsyncStorage
 - Source API: [TheMealDB](https://www.themealdb.com/api.php)
 
-## High Level Architecture Diagram
-
-<img src="assets/hlad.png" alt="Data Flow Diagram"/>
-
-## Data Flow Diagram
-
-<img src="assets/data-flow.png" alt="Data Flow Diagram"/>
-
 ## Getting Started (iPhone / Expo Go)
+
+You can directly [visit here](https://snack.expo.dev/@rakib17/my-recipe-app) to enjoy the live application.
+
+OR
 
 Follow these steps to get the app running on your iPhone using **Expo Go**:
 
@@ -65,5 +61,14 @@ npx expo start
 1. Install the **Expo Go app** from the App Store on your iPhone.
 2. Open **Expo Go**, and scan the QR code shown in your terminal or browser.
 3. The app will open on your phone.
+
+## High Level Architecture Diagram
+
+<img src="assets/hlad.png" alt="Data Flow Diagram"/>
+
+## Data Flow Diagram
+
+<img src="assets/data-flow.png" alt="Data Flow Diagram"/>
+
 
 Developed by [@omiq17](https://github.com/omiq17)
