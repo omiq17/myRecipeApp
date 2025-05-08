@@ -2,7 +2,20 @@
 
 Welcome to **My Recipe App** — a mobile application built with **React Native** , **TypeScript** and **Expo** that helps you explore your favorite food recipes.
 
-## 🚀 Getting Started (iPhone / Expo Go)
+## Tech Stack
+
+- [React Native](https://reactnative.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Expo](https://expo.dev/)
+
+## Offline Support
+
+My Recipe App caches recipes locally using `AsyncStorage`. If you're offline, the app will display the most recently fetched recipes from cache.
+
+- Caching with: AsyncStorage
+- Source API: [TheMealDB](https://www.themealdb.com/api.php)
+
+## Getting Started (iPhone / Expo Go)
 
 Follow these steps to get the app running on your iPhone using **Expo Go**:
 
@@ -44,18 +57,5 @@ npx expo start
 1. Install the **Expo Go app** from the App Store on your iPhone.
 2. Open **Expo Go**, and scan the QR code shown in your terminal or browser.
 3. The app will open on your phone.
-
-## Tech Stack
-
-- [React Native](https://reactnative.dev/)
-- [Expo](https://expo.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-
-## Offline Support
-
-My Recipe App caches recipes locally using `AsyncStorage`. If you're offline, the app will display the most recently fetched recipes from cache.
-
-- Caching with: AsyncStorage
-- Source API: [TheMealDB](https://www.themealdb.com/api.php)
 
 Developed by [@omiq17](https://github.com/omiq17)
