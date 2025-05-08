@@ -15,6 +15,10 @@ My Recipe App caches recipes locally using `AsyncStorage`. If you're offline, th
 - Caching with: AsyncStorage
 - Source API: [TheMealDB](https://www.themealdb.com/api.php)
 
+## High Level Architecture Diagram
+
+<img src="assets/hlad.png" alt="Data Flow Diagram"/>
+
 ## Data Flow Diagram
 
 <img src="assets/data-flow.png" alt="Data Flow Diagram"/>
