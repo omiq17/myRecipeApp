@@ -15,6 +15,10 @@ My Recipe App caches recipes locally using `AsyncStorage`. If you're offline, th
 - Caching with: AsyncStorage
 - Source API: [TheMealDB](https://www.themealdb.com/api.php)
 
+## Data Flow Diagram
+
+<img src="assets/data-flow.png" alt="Data Flow Diagram"/>
+
 ## Getting Started (iPhone / Expo Go)
 
 Follow these steps to get the app running on your iPhone using **Expo Go**:
