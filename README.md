@@ -6,20 +6,20 @@ Welcome to **My Recipe App** — a mobile application built with **React Native*
 
 Follow these steps to get the app running on your iPhone using **Expo Go**:
 
-### 1. 📥 Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/omiq17/myRecipeApp.git
 cd myRecipeApp
 ```
 
-### 2. 📦 Install Dependencies
+### 2. Install Dependencies
 
 ```bash
 npm install
 ```
 
-> ⚠️ Make sure you have **Node.js** installed. You can install it via [Homebrew](https://brew.sh):
+> Make sure you have **Node.js** installed. You can install it via [Homebrew](https://brew.sh):
 >
 > ```bash
 > brew install node
@@ -31,7 +31,7 @@ npm install
 npm install -g expo-cli
 ```
 
-### 4. 🔥 Start the Development Server
+### 4. Start the Development Server
 
 ```bash
 npx expo start
@@ -47,17 +47,17 @@ npx expo start
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 
-## 📴 Offline Support
+## Offline Support
 
 My Recipe App caches recipes locally using `AsyncStorage`. If you're offline, the app will display the most recently fetched recipes from cache.
 
-- 🗂️ Caching with: AsyncStorage
-- 🌐 Source API: [TheMealDB](https://www.themealdb.com/api.php)
+- Caching with: AsyncStorage
+- Source API: [TheMealDB](https://www.themealdb.com/api.php)
 
-Made with ❤️ by [@omiq17](https://github.com/omiq17)
+Developed by [@omiq17](https://github.com/omiq17)
