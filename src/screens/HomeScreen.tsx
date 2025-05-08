@@ -83,7 +83,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ navigation }) => {
       {/* Meals Grid */}
       {isLoading ? (
         <View style={styles.centerContainer}>
-          <ActivityIndicator size="large" color="#ffbd33" />
+          <ActivityIndicator size="large" color="#2a9d8f" />
         </View>
       ) : error ? (
         <View style={styles.centerContainer}>
@@ -133,7 +133,7 @@ const styles = StyleSheet.create({
   header: {
     paddingVertical: 16,
     paddingHorizontal: 20,
-    backgroundColor: '#ffbd33',
+    backgroundColor: '#2a9d8f',
   },
   headerTitle: {
     fontSize: 22,
@@ -158,7 +158,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#f0f0f0',
   },
   selectedCategory: {
-    backgroundColor: '#ffbd33',
+    backgroundColor: '#2a9d8f',
   },
   categoryButtonText: {
     fontSize: 14,

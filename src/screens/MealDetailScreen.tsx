@@ -78,7 +78,7 @@ export const MealDetailScreen: React.FC<MealDetailScreenProps> = ({ route, navig
   if (isLoading) {
     return (
       <View style={styles.loadingContainer}>
-        <ActivityIndicator size="large" color="#ffbd33" />
+        <ActivityIndicator size="large" color="#2a9d8f" />
       </View>
     );
   }
@@ -97,11 +97,13 @@ export const MealDetailScreen: React.FC<MealDetailScreenProps> = ({ route, navig
     <View style={styles.container}>
       <NetworkIndicator />
       <ScrollView>
-        <Image
-          source={isConnected ? { uri: meal.strMealThumb } : { uri: PLACEHOLDER_IMAGE_BASE64 }}
+        {isConnected && (
+          <Image
+          source={{ uri: meal.strMealThumb }}
           style={styles.image}
           resizeMode="cover"
-        />
+          />
+        )}
         
         <View style={styles.content}>
           <Text style={styles.title}>{meal.strMeal}</Text>
@@ -186,7 +188,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   tag: {
-    backgroundColor: '#ffbd33',
+    backgroundColor: '#2a9d8f',
     paddingHorizontal: 12,
     paddingVertical: 6,
     borderRadius: 16,

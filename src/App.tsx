@@ -18,12 +18,12 @@ const App = () => {
     <NetworkProvider>
       <NavigationContainer>
         <SafeAreaView style={styles.safeArea}>
-          <StatusBar barStyle="light-content" backgroundColor="#ffbd33" />
+          <StatusBar barStyle="light-content" backgroundColor="#2a9d8f" />
           <Stack.Navigator
             initialRouteName="Home"
             screenOptions={{
               headerStyle: {
-                backgroundColor: '#ffbd33',
+                backgroundColor: '#2a9d8f',
               },
               headerTintColor: '#fff',
               headerTitleStyle: {
