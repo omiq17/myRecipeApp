@@ -38,7 +38,7 @@ npm install
 > brew install node
 > ```
 
-### 3. 📱 Install Expo CLI (if not already installed)
+### 3. Install Expo CLI (if not already installed)
 
 ```bash
 npm install -g expo-cli
@@ -52,7 +52,7 @@ npx expo start
 
 > This will open Expo DevTools in your browser and display a QR code in your terminal.
 
-### 5. 📷 Open App on iPhone
+### 5. Open App on iPhone
 
 1. Install the **Expo Go app** from the App Store on your iPhone.
 2. Open **Expo Go**, and scan the QR code shown in your terminal or browser.
