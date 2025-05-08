@@ -45,8 +45,6 @@ npx expo start
 2. Open **Expo Go**, and scan the QR code shown in your terminal or browser.
 3. The app will open on your phone.
 
----
-
 ## Tech Stack
 
 - [React Native](https://reactnative.dev/)
