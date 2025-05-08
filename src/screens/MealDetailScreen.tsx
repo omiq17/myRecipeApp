@@ -15,7 +15,6 @@ import { getMealDetail, storeMealDetail } from '../services/storageService';
 import { useNetwork } from '../contexts/NetworkContext';
 import { NetworkIndicator } from '../components/NetworkIndicator';
 import { Meal } from '../models/Meal';
-import { PLACEHOLDER_IMAGE_BASE64 } from '../const/image';
 
 type RootStackParamList = {
   Home: undefined;
